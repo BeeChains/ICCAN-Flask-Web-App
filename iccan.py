@@ -2,9 +2,9 @@ from dataclasses import dataclass
 
 @dataclass
 class Design:
-color: str
-texture: str
-pattern: str
+    color: str
+    texture: str
+    pattern: str
 
 class ICCAN:
     def generate(self, color, texture, pattern):
@@ -12,4 +12,4 @@ class ICCAN:
     # ...
 
     # Return generated design
-    return Design(color, texture, pattern)
+     return Design(color, texture, pattern)
