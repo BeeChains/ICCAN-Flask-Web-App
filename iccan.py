@@ -7,9 +7,9 @@ texture: str
 pattern: str
 
 class ICCAN:
-def generate(self, color, texture, pattern):
-# Generate camouflage design using GAN and CAN networks
-# ...
+    def generate(self, color, texture, pattern):
+    # Generate camouflage design using GAN and CAN networks
+    # ...
 
-# Return generated design
-return Design(color, texture, pattern)
+    # Return generated design
+    return Design(color, texture, pattern)
